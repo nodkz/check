@@ -1,0 +1,9 @@
+type Query {
+  user: User
+  users: [User]!
+  wrong: Wrong
+}
+
+type User {
+  name: String
+}
